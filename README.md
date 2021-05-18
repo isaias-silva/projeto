@@ -1,1 +1,2 @@
 # projeto-banco-de-dados
+atenção, é necessario que tenha um servidor mysql para que o projeto funcione, use os comandos do arquivo no workbench ou aplicação semelhante para criação do banco de dados e tabela.
