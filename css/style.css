@@ -1,24 +1,29 @@
+/*definindo a fonte*/
 * {
   font-family: "Courier New", Courier, monospace;
 }
+/*formatando corpo*/
 body {
   background: whitesmoke;
   background-image: url("../img/background.png");
   background-repeat: repeat-x;
 }
-
+/*formatando cabeçalho e rodapea */
 header,footer {
   background-color: skyblue;
   border: solid 2px;
   border-radius: 15px;
 }
+/*alinhando h1 no centro*/
 h1 {
   text-align: center;
 }
+/* menu horizontal*/
 nav ul li {
   display: inline-block;
   padding: 20px;
 }
+/*estilizando a section*/
 section {
   padding: 20px;
   background-color: steelblue;
@@ -26,7 +31,7 @@ section {
   border: solid 5px;
   border-radius: 15px;
 }
-
+/*cores e texto do link*/
 nav ul li a {
   text-decoration: none;
   color:blue;
@@ -35,36 +40,42 @@ nav ul li a:hover {
   text-decoration: none;
   color: slateblue;
 }
-
+/*definindo largura e alinhando texto do formulario*/
 #formulario {
   text-align: center;
   width: 700px;
 }
+/*definindo as sections em horizontal*/
 section {
   display: inline-block;
 }
+/*definindo largura da section explicação e alinhando seu texto*/
 #explicacao {
   text-align: center;
   width: 300px;
 }
+/*redimensionando img*/
 #explicacao img{
 width:100%;
 height:100%;
 border-radius: 15px;
 }
+/*h3 do form*/
 #formulario h3 {
   font-size: 30px;
 }
+/*tamanho da fonte do form*/
 #formulario {
   font-size: 25px;
 }
-
+/*estilo do input*/
 #formulario input.inpu {
   height: 30px;
   border: solid 1px;
   border-radius: 15px;
 
 }
+/*estilo do submit*/
 #formulario input.envio {
   height: 50px;
   width: 100px;
@@ -73,11 +84,12 @@ border-radius: 15px;
   font-size: 20px;
   
 }
-
+/*margin dos input */
 #formulario input {
   margin: 10px;
   
 }
+/*tamanho da fonte do rodape*/
 footer{
     font-size: 25px;
 }
