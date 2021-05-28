@@ -15,8 +15,8 @@
         <h1>IMC</h1>
         <nav>
             <ul>
-                <li><a href="#">como usar</a></li>
-                <li><a href="https://github.com/isaias-silva" target="_blank">criador</a></li>
+                <li><a href="#" onclick="como()" title="como usar">como usar</a></li>
+                <li><a href="https://github.com/isaias-silva" target="_blank" title="criador">criador</a></li>
 
             </ul>
         </nav>
@@ -28,11 +28,11 @@
             <!--formulário-->
             <h3>cálculo de imc </h3>
             <form action="#">
-                <i>peso(kg)</i></i><input type="number" name="peso" size="20" class="inpu">
+                <i>peso(kg)</i></i><input type="number" name="peso" size="20" class="inpu" title="seu peso">
                 <br>
-                <i>tamanho(m)</i></i><input type="number" name="altura" size="20" class="inpu">
+                <i>tamanho(m)</i></i><input type="number" name="altura" size="20" class="inpu" title="seu tamanho">
                 <br>
-                <input type="button" value="calcular" id="envio">
+                <input type="button" value="calcular" id="envio" title="calcular">
                 <br>
                 <h4>imc:</h4>
                 <div id="resposta">resposta</div>
@@ -40,7 +40,8 @@
         </section>
         <section id="explicacao">
             <img src="img/imc.jpg">
-            <p>O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade. É calculado dividindo o peso (em kg) pela altura ao quadrado (em metros) </p>
+            <h3>detalhes:</h3>
+            <p id="detalhes">explicação em detalhes do IMC calculado.</p>
         </section>
     </aside>
     <footer>

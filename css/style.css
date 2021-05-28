@@ -45,7 +45,7 @@ section {
     padding: 20px;
     background-color: steelblue;
     margin: 5px;
-    border: solid 5px;
+    border: solid 2px;
     border-radius: 15px;
 }
 
@@ -75,6 +75,7 @@ nav ul li a:hover {
 
 section {
     display: inline-block;
+    background-image: url("../img/fundo.jpg");
 }
 
 
@@ -82,16 +83,7 @@ section {
 
 #explicacao {
     text-align: center;
-    width: 300px;
-}
-
-
-/*redimensionando img*/
-
-#explicacao img {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
+    width: 500px;
 }
 
 
@@ -125,6 +117,7 @@ section {
     height: 50px;
     width: 150px;
     border: solid 2px;
+    border-radius: 15px;
     font-size: 20px;
     line-height: right;
 }
@@ -150,4 +143,27 @@ footer {
     border: solid 1px;
     background: white;
     border-radius: 15px;
+}
+
+#detalhes {
+    border: solid 1px;
+    background: white;
+    border-radius: 15px;
+}
+
+#explicacao img {
+    width: 60%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+a:hover {
+    border: solid 1px;
+    border-color: slategrey;
+    background: slategrey;
+    border-radius: 15px;
+}
+
+#formulario input:hover {
+    background-color: gray;
 }
