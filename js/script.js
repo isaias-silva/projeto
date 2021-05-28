@@ -1,6 +1,6 @@
 var a = window.document.querySelector("input#envio");
 a.addEventListener("click", imc);
-
+a.addEventListener("click", detalhe);
 var calc;
 var detal = window.document.querySelector("p#detalhes");
 
@@ -14,7 +14,7 @@ function imc() {
     calc_arre = parseFloat(calc.toFixed(2));
     var res = window.document.querySelector("div#resposta");
     res.innerText = `${calc_arre} Kg/m2`;
-    detalhe();
+
 }
 
 function detalhe() {
