@@ -137,7 +137,7 @@ footer {
 }
 
 
-/*input imc*/
+/*imc*/
 
 #resposta {
     border: solid 1px;
@@ -145,11 +145,17 @@ footer {
     border-radius: 15px;
 }
 
+
+/*detalhes*/
+
 #detalhes {
     border: solid 1px;
     background: white;
     border-radius: 15px;
 }
+
+
+/*img*/
 
 #explicacao img {
     width: 60%;
@@ -157,12 +163,18 @@ footer {
     border-radius: 15px;
 }
 
+
+/*passar o mouse*/
+
 a:hover {
     border: solid 1px;
     border-color: slategrey;
     background: slategrey;
     border-radius: 15px;
 }
+
+
+/*passar o mouse*/
 
 #formulario input:hover,
 #resposta:hover,

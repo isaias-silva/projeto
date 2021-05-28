@@ -1,10 +1,12 @@
+/*queryselector para o botão */
 var a = window.document.querySelector("input#envio");
+/*event listener para as funções */
 a.addEventListener("click", imc);
 a.addEventListener("click", detalhe);
 var calc;
 var detal = window.document.querySelector("p#detalhes");
 
-
+/*função imc*/
 function imc() {
     var tx1 = window.document.getElementsByClassName("inpu")[0];
     var tx2 = window.document.getElementsByClassName("inpu")[1];
@@ -16,7 +18,7 @@ function imc() {
     res.innerText = `${calc_arre} Kg/m2`;
 
 }
-
+/*função detalhe*/
 function detalhe() {
     if (calc > 25 && calc < 29.9) {
         detal.innerHTML = "<h4>sobrepeso</h4><p>excesso de peso, melhore sua alimentação!</p>";
@@ -45,7 +47,7 @@ function detalhe() {
         detal.innerHTML = "Magreza extrema";
     }
 }
-
+/*função como(ativada quando clicado em como usar)*/
 function como() {
     alert("digite a seu peso em kg e seu tamanho em metros para calcular seu IMC")
 }
